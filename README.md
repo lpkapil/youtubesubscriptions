@@ -32,7 +32,15 @@ Pull Latest code:
 `127.0.0.1 youtubedash.com`
 
 - Create a folder 'secrets' inside application root and place the client_secrets.json file and change the file name in codebas inside 'setAuthConfig' property.
-Make sure file 'client_secret.json' has read access.
+Make sure file 'client_secret.json' has read access. For getting secrets you need to create a project inside google console. 
+
+`https://console.cloud.google.com/projectcreate?`
+
+Then go to credentials manager for setting up the redirect_uri in oauth consent screen.
+
+`https://console.cloud.google.com/apis/credentials?project=YourProjectId`
+
+Create Oauth client id and download the client_secret.json file to configure.
 
 - Open application using URL 
 
