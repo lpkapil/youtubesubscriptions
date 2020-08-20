@@ -46,6 +46,7 @@ details are listed below.
 
 #### Functions #### 
 
+```
 Name: listSubscribers:
 Parameters: 
    $client: Google_Client Object
@@ -59,3 +60,4 @@ Name: deleteSubscription
 Parameters:
    $client: Google_Client
    $id: Channel id which we wants to unsubscribe
+```
